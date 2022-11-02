@@ -2,7 +2,7 @@ const list = document.querySelectorAll("li.item");
 
 console.log(`Number of categories: ${list.length}`);
 
-const ul = document.querySelectorAll("#categories>li");
+const ul = document.querySelectorAll("li.item");
 
 ul.forEach((el) => {
   console.log(
