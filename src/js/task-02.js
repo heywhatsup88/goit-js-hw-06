@@ -19,5 +19,3 @@ const elements = ingredients.map((ingredient) => {
 console.log(elements);
 
 ingredientsListEl.append(...elements);
-
-11;
