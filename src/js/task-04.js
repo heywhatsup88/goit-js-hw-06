@@ -15,5 +15,3 @@ decrementBtn.addEventListener("click", (event) => {
   valueEl -= 1;
   counterValue.innerText = valueEl;
 });
-
-11;
