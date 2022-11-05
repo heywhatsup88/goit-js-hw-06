@@ -9,4 +9,3 @@ ul.forEach((el) => {
     `Category: ${el.firstElementChild.textContent}\nElements: ${el.lastElementChild.children.length}`
   );
 });
-1231;
