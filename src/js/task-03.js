@@ -20,5 +20,3 @@ const gallery = images
   .join("");
 
 galleryContainerEl.insertAdjacentHTML("afterbegin", gallery);
-
-22;
