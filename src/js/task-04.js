@@ -6,12 +6,12 @@ const decrementBtn = document.querySelector("#counter").firstElementChild;
 
 const incrementBtn = document.querySelector("#counter").lastElementChild;
 
-incrementBtn.addEventListener("click", (event) => {
+incrementBtn.addEventListener("click", (e) => {
   valueEl += 1;
   counterValue.innerText = valueEl;
 });
 
-decrementBtn.addEventListener("click", (event) => {
+decrementBtn.addEventListener("click", (e) => {
   valueEl -= 1;
   counterValue.innerText = valueEl;
 });
